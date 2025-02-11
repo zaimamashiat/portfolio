@@ -10,11 +10,12 @@ export default function ProjectGrid() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#FBF5E5] flex flex-col items-center justify-center p-12">
+    <div className="min-h-screen  flex flex-col items-center justify-center p-18">
       <h1 className="text-3xl sm:text-4xl font-bold text-[#212121] mb-8" style={{ fontFamily: 'Tisa, serif' }}>
         View my Projects!
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl w-full">
+
         {projects.map((project, index) => (
           <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="group relative block h-48 sm:h-56 lg:h-64">
             <span className="absolute inset-0 border-2 border-dashed border-black"></span>

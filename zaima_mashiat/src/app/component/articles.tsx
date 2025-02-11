@@ -1,16 +1,17 @@
 "use client";
 export default function Articles() {
     const articles = [
-      { title: "Article 1", description: "Description for article 1" },
-      { title: "Article 2", description: "Description for article 2" },
+      { title: "Coming Soon!", description: "Description"  },
+      { title: "Coming Soon!", description: "Description " },
     ];
   
     return (
-      <div className="min-h-screen bg-[#FBF5E5] flex flex-col items-center justify-center p-12">
-        <h1 className="text-3xl sm:text-4xl font-bold text-[#212121] mb-8" style={{ fontFamily: 'Tisa, serif' }}>
+      <div className="min-h-screen  flex flex-col items-center justify-center p-18 mt-4">
+        <h1 className="text-3xl sm:text-4xl font-bold text-[#212121] mb-4" style={{ fontFamily: 'Tisa, serif' }}>
           View my Articles!
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-6xl w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-w-6xl w-full">
+
           {articles.map((article, index) => (
             <a key={index} href="#" className="group relative block h-48 sm:h-56 lg:h-64">
               <span className="absolute inset-0 border-2 border-dashed border-black"></span>

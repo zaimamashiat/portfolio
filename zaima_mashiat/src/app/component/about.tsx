@@ -1,7 +1,7 @@
 "use client";
 export default function PortfolioCard() {
     return (
-      <div className="bg-[#FBF5E5] text-black p-4 flex flex-col items-center mt-8">
+      <div className=" text-black p-4 flex flex-col items-center mt-64">
         <div className="flex flex-col md:flex-row items-center bg-[#C890A7] p-6 rounded-2xl shadow-lg max-w-4xl w-full">
           {/* Text Section */}
           <div className="flex-1 text-center md:text-left">
@@ -17,7 +17,11 @@ export default function PortfolioCard() {
             </ul>
             <div className="mt-4 flex items-center space-x-4">
               <button className="bg-[#A35C7A] px-4 py-2 rounded-full text-white font-semibold flex items-center">
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="bg-[#A35C7A] px-4 py-2 rounded-full text-white font-semibold flex items-center">
                 <span className="mr-2">📄</span> View My Resume
+              </a>
+
+                {/* <span className="mr-2">📄</span> View My Resume */}
               </button>
             </div>
           </div>

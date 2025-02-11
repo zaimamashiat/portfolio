@@ -5,6 +5,7 @@ import ProjectCard from "./component/project";
 import Articles from "./component/articles";
 import GetToKnowMe from "./component/footer";
 import Footer from "./component/footer";
+import FindMeOn from "./component/socials";
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
       <Navbar />
       <PortfolioCard/>
       <ProjectCard/>
-      <Articles/>
+      <FindMeOn/>
+      {/* <Articles/> */}
       <Footer/>
       {/* <GetToKnowMe/> */}
     </>
