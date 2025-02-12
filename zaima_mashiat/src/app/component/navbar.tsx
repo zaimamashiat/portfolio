@@ -31,7 +31,7 @@ const Navbar = () => {
                 href="#"
                 className="block py-2 px-3 text-white font-bold rounded-sm hover:bg-[#A35C7A] md:hover:bg-transparent md:border-0 hover:text-black md:p-0"
               >
-                Services
+                About
               </a>
             </li>
             <li>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 href="#"
                 className="block py-2 px-3 text-white font-bold rounded-sm hover:bg-[#A35C7A] md:hover:bg-transparent md:border-0 hover:text-black md:p-0"
               >
-                Pricing
+                Projects
               </a>
             </li>
             <li>
